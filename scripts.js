@@ -7,7 +7,7 @@ let weatherDescrip = document.querySelector('.container .weather-info-box .weath
 let weatherLocation = document.querySelector('.container .weather-info-box .location');
 let otherWeatherInfo = document.querySelector('.container .other-weather-info');
 
-let apiKey = '';
+let apiKey = 'c86213a54431cacd993a66143d6fa89d';
 
 cityNameInput.addEventListener('keyup', (e) => {
     if (e.key == 'Enter' && cityNameInput.value != '') {
@@ -42,7 +42,7 @@ let getWeatherInfo = (cityName) => {
                                     </div>
                                     <div class="max-temp">
                                         <span>Max temp</span>
-                                        <p>${data.main.temp_max}$#176;</p>
+                                        <p>${data.main.temp_max}°</p>
                                     </div>
                                     <div class="pressure">
                                         <span>Pressure </span>
