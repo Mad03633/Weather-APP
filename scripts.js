@@ -7,7 +7,7 @@ let weatherDescrip = document.querySelector('.container .weather-info-box .weath
 let weatherLocation = document.querySelector('.container .weather-info-box .location');
 let otherWeatherInfo = document.querySelector('.container .other-weather-info');
 
-let apiKey = 'c86213a54431cacd993a66143d6fa89d';
+let apiKey = ''; //open openweathermap.org
 
 cityNameInput.addEventListener('keyup', (e) => {
     if (e.key == 'Enter' && cityNameInput.value != '') {
